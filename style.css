@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav img{
+    height: 58px;
+    width: 168px;
+    margin-right:30px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    cursor: pointer;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+}
+.maindownload{
+    text-align: center;
+    font-size: larger;
+    
+}
+.maindownload div{
+    padding-bottom: 20px;
+}
+table{
+    margin: 0 auto;
+    padding-bottom: 18px;
+}
+table p{
+    padding-right: 12px;
+}
+
+.dwldbutton{
+    display: flex;
+    gap: 12px;
+}
+.container{
+    display: grid;
+    /* background-color: red; */
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    justify-content: center;
+}
+.makecard{
+    height: 160px;
+    background-color: rgb(216, 216, 170);
+    border-radius: 5px;
+    padding: 20px;
+
+}
+h3{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.bluebutton button{
+    background-color: rgb(34, 161, 211);
+    border-radius: 4px;
+    height: 28px;
+    width: 110px;
+}
+.greenbutton button{
+    background-color: green;
+    height: 28px;
+    width: 110px;
+    border-radius: 4px;
+}
+.mainbutton button{
+    background-color: rgb(34, 161, 211);
+    height: 40px;
+    width: 250px;
+    border-radius: 8px;
+}
+.everything{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    appearance: none;
+    background: none;
+    border: none;
+    padding: 6px;
+}
